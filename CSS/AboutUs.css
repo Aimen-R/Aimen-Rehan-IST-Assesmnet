@@ -1,0 +1,71 @@
+
+.top{
+    width:100%; 
+    height:10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+
+}
+
+.who{
+font-size: 30px;
+color:#415a77;
+padding-left: 3vh;
+padding-top: 3vh; 
+}
+
+hr { 
+border: 3px solid #778da9;
+width: 24vh;
+position: absolute;
+left: 4vh; 
+
+
+
+}  
+
+h4{
+    font-size: 30px;
+    color: #415a77;
+}
+
+.About{
+    text-align: center;
+    margin-left:15vh;
+    margin-right: 15vh;
+    color:#1b263b;
+    font-size: 20px;
+}
+
+.History{
+    text-align: center;
+    margin-left:15vh;
+    margin-right: 15vh;
+    color:#1b263b;
+    font-size: 20px;
+}
+
+h6{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 2px;
+    color: #415a77;
+}
+
+.Img{
+    width:80%; 
+    height:5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+    padding-bottom: 20px;
+    padding-top: 15px;
+
+
+}
+
+.mybody{
+    background-color: white;
+
+}

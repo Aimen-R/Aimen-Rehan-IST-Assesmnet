@@ -1,0 +1,42 @@
+
+.bookshelf{
+    height:30%;
+    width: 100%;
+}
+
+hr{
+    border: 3px solid #415a77;
+    width: 80%;
+    
+}
+
+
+.info{
+    padding-left: 15vh;    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 20px;
+}
+
+.home{
+    padding-right: 10px;
+}
+
+.phone{
+    padding-right: 10px;
+
+}
+
+.mail{
+    padding-right: 15px;
+
+}
+
+.time{
+    padding-right: 10px;
+
+}
+
+.mybody{
+    background-color: white;
+}

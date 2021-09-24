@@ -1,0 +1,99 @@
+.wrapper{
+    display: grid;
+    grid-template-columns:30% 40% 30%;
+    grid-template-rows:  10vh 140vh 50vh 80vh 80vh 80vh 20vh; 
+    grid-template-areas: "options options options"
+                         "image image image"
+                         "strengths strengths strengths"
+                         "ChristinaImg ChristinaInfo ChristinaInfo"
+                         "ChrisInfo ChrisInfo ChrisImg"
+                         "AnikaImg AnikaInfo AnikaInfo"
+                         "footer footer footer";
+}
+
+.Options{
+    grid-area:options;
+}
+.spread{
+    width:100%;
+
+}
+.overall{
+    grid-area:image;
+    background-color:#415a77;
+    
+}
+
+.TeamStrengths{
+    grid-area:strengths;
+    padding-left: 15vh;
+    background-color:#415a77;
+    color:whitesmoke;
+}
+
+.ChristinaImg{
+    grid-area:ChristinaImg;
+    background-color: white;
+
+}
+
+.ChristinaInfo{
+    grid-area:ChristinaInfo;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 10px;
+    background-color: white;
+
+
+}
+
+.ChrisImg{
+    grid-area:ChrisImg;
+    background-color:#415a77;
+}
+
+.ChrisInfo{
+    grid-area:ChrisInfo;
+    background-color:#415a77;
+        padding-left: 25px;
+    padding-right: 50px;
+    padding-top: 40px;
+    color:whitesmoke;
+}
+
+.AnikaImg{
+    grid-area:AnikaImg;
+    background-color: white;
+
+}       
+
+.AnikaInfo{
+    grid-area:AnikaInfo;
+    padding-left: 50px;
+    padding-right: 25px;
+    padding-top: 30px;
+    background-color: white;
+
+}
+
+.footer{
+    grid-area:footer;
+
+}
+
+.Chris{
+    height:100%;
+    width:100%;
+    
+     }
+
+.Christina{
+    height:100%;
+    width:100%;
+}
+
+.Anika{
+    height:100%;
+    width:100%;
+
+}
